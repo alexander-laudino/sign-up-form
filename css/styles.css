@@ -105,19 +105,20 @@ form {
   padding-left: var(--main-padding);
 }
 
+.name,
+.contact,
+.password {
+  display: flex;
+  gap: 50px;
+}
+
 #create-account-btn {
   position: absolute;
   bottom: -50px;
 }
 
-.name {
-  display: flex;
-}
-
-.contact {
-  display: flex;
-}
-
-.password {
-  display: flex;
+#log-in {
+  padding-left: var(--main-padding);
+  font-size: 1.125rem;
+  margin-top: 75px;
 }
