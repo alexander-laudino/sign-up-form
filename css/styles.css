@@ -136,8 +136,14 @@ input:focus {
   box-shadow: 1px 2px darkgray;
 }
 
-.error {
+#pass:invalid,
+#confirm-pass:invalid {
   border: 1px solid rgb(255,0,75);
+}
+
+#pass:valid,
+#confirm-pass:valid {
+  border: 1px solid #E5E7EB;
 }
 
 span.do-not-match::after {
