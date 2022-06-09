@@ -140,6 +140,11 @@ input:focus {
   border: 1px solid red;
 }
 
+span.do-not-match::after {
+  font-size: .75rem;
+  content: "*Passwords do not match";
+}
+
 #create-account-btn {
   position: absolute;
   bottom: -50px;
