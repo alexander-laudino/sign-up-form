@@ -95,13 +95,19 @@ input {
 
 
 form {
-  height: 300px;
+  position: relative;
+  height: 250px;
   display: flex;
   flex-flow: column wrap;
   justify-content: space-evenly;
   width: auto;
   background-color: #fff;
   padding-left: var(--main-padding);
+}
+
+#create-account-btn {
+  position: absolute;
+  bottom: -50px;
 }
 
 .name {
