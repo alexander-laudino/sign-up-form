@@ -41,7 +41,8 @@ body {
 
 #logo-text {
   font-family: "reactive-anchor";
-
+  font-size: 5rem;
+  color: #fff;
 }
 
 #image-credit {
