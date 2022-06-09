@@ -1,3 +1,8 @@
+@font-face {
+  font-family: reactive-anchor;
+  src: url(../fonts/ReactiveAnchor-L3L0n.ttf);
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -5,16 +10,19 @@ body {
 }
 
 .left-hero {
+  height: 100vh;
   width: 35vw;
   position: relative;
   display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 .hero-image {
   margin: 0;
   padding: 0;
-  width: 100px;
   z-index: -1;
+  overflow: hidden;
 }
 
 .logo {
@@ -26,8 +34,27 @@ body {
   width: 35vw;
 }
 
+#logo {
+  height: 150px;
+  width: auto;
+}
+
+#logo-text {
+  font-family: "reactive-anchor";
+
+}
+
+#image-credit {
+  position: absolute;
+  bottom: 0;
+  width: 35vw;
+  text-align: center;
+  color: #fff;
+}
+
 .main {
-  width: 65vw;
+  max-width: 65vw;
   background-color: lightgray;
+  padding: 25px;
 }
 
