@@ -105,7 +105,7 @@ form {
   padding-left: var(--main-padding);
 }
 
-h1 {
+form h1 {
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -115,6 +115,12 @@ h1 {
 .password {
   display: flex;
   gap: 50px;
+}
+
+label {
+  font-size: .9rem;
+  font-weight: 600;
+  margin-bottom: 2px;
 }
 
 input {
