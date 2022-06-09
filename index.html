@@ -53,20 +53,20 @@
 
           <div class="phone">
             <label for="phone-number">PHONE NUMBER</label>
-            <input type="tel" name="phone-number" id="phone-number" value="888-888-8888">
+            <input type="tel" name="phone-number" id="phone-number" value="888-888-8888" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
           </div>
         </div>
 
         <div class="password">
           <div class="pass-left">
             <label for="pass">PASSWORD</label>
-            <input type="password" name="pass" class="error" id="pass">
+            <input type="password" name="pass" id="pass" pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{16,32})" value="password">
             <span class="do-not-match"></span>
           </div>
 
           <div class="pass-right">
-            <label for="valid-pass">CONFIRM PASSWORD</label>
-            <input type="password" name="valid-pass" class="error" id="valid-pass">
+            <label for="confirm-pass">CONFIRM PASSWORD</label>
+            <input type="password" name="confirm-pass" id="confirm-pass" pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{16,32})" value="password">
           </div>
         </div>
 
