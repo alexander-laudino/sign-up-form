@@ -28,7 +28,7 @@ body {
 .logo {
   display: flex;
   position: absolute;
-  top: 250px;
+  top: 200px;
   justify-content: center;
   align-items: center;
   width: 35vw;
