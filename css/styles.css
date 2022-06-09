@@ -9,6 +9,12 @@ body {
   margin: 0;
 }
 
+label,
+input {
+  display: flex;
+  flex-direction: column;
+}
+
 .left-hero {
   height: 100vh;
   width: 35vw;
@@ -62,4 +68,11 @@ body {
   background-color: lightgray;
   width: max(65%, 500px);
   padding-left: 50px;
+  display: flex;
+  flex-flow: column wrap;
 }
+
+.name {
+  display: flex;
+}
+
