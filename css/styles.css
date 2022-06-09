@@ -82,7 +82,7 @@ input {
 }
 
 .top-text {
-  height: 390px;
+  height: 340px;
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
@@ -90,7 +90,9 @@ input {
   padding-left: var(--main-padding);
   font-size: 1.5rem;
   font-weight: 600;
+  margin-bottom: 50px;
 }
+
 
 form {
   height: 300px;
