@@ -94,7 +94,6 @@ input {
   margin-bottom: 50px;
 }
 
-
 form {
   position: relative;
   height: 250px;
@@ -122,4 +121,8 @@ form {
   padding-left: var(--main-padding);
   font-size: 1.125rem;
   margin-top: 75px;
+}
+
+a {
+  text-decoration: none;
 }
