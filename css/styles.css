@@ -115,6 +115,7 @@ form h1 {
 .password {
   display: flex;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 label {
@@ -125,12 +126,18 @@ label {
 
 input {
   border: 1px solid #E5E7EB;
+  width: 200px;
+  border-radius: 3px;
 }
 
 input:focus {
   outline: none !important;
   border: 1px solid blue;
   box-shadow: 1px 2px darkgray;
+}
+
+.error {
+  border: 1px solid red;
 }
 
 #create-account-btn {
