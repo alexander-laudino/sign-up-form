@@ -1,13 +1,23 @@
 body {
   height: 100vh;
   display: flex;
+  margin: 0;
 }
 
 .left-hero {
   width: 35vw;
   position: relative;
+  display: flex;
+}
+
+.hero-image {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  z-index: -1;
 }
 
 .main {
   width: 65vw;
+  background-color: lightgray;
 }
