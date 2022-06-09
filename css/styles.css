@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+  display: flex;
+}
+
+.left-hero {
+  width: 35vw;
+  position: relative;
+}
+
+.main {
+  width: 65vw;
+}
