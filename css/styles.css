@@ -17,7 +17,17 @@ body {
   z-index: -1;
 }
 
+.logo {
+  display: flex;
+  position: absolute;
+  top: 250px;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+}
+
 .main {
   width: 65vw;
   background-color: lightgray;
 }
+
