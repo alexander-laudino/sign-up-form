@@ -78,19 +78,28 @@ input {
 .main {
   background-color: lightgray;
   width: max(65%, 500px);
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  gap: 50px;
+  position: relative;
 }
 
 .top-text {
+  height: 390px;
   display: flex;
   flex-flow: column wrap;
+  justify-content: flex-end;
   gap: 25px;
   padding-left: var(--main-padding);
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+form {
+  height: 300px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  width: auto;
+  background-color: #fff;
+  padding-left: var(--main-padding);
 }
 
 .name {
