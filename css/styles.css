@@ -147,6 +147,7 @@ input:focus {
 }
 
 span.do-not-match::after {
+  position: absolute;
   font-size: .75rem;
   color: rgb(255, 0, 75);
   content: "*Passwords do not match";
