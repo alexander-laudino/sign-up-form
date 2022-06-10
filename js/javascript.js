@@ -1,5 +1,3 @@
-const left = document.querySelector(".pass-left");
-const right = document.querySelector(".pass-right");
 const submit = document.getElementById("create-account-btn");
 const errorSpan = document.querySelector("span");
 
